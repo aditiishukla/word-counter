@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <!-- <div class="header-left">
+            <img src="quillbot-logo.png" alt="QuillBot Logo" class="logo"> <span>QuillBot</span>
+        </div> -->
+        <div class="header-center">
+            WORD COUNTER
+        </div>
+        <!-- <div class="header-right">
+            <button class="upgrade-button"><i class="fas fa-gem"></i> Upgrade to Premium</button>
+            <i class="fas fa-user-circle user-icon"></i>
+        </div> -->
+    </header>
+
+    <div class="main-container">
+        <div class="input-section">
+            <p class="input-label">Enter your text</p>
+            <textarea id="inputText" placeholder="Type your text here..."></textarea>
+        <!--<button id="pasteButton" class="paste-button"><i class="fas fa-paste"></i> Paste Text</button>-->
+        </div>
+
+        <div class="metrics-panel">
+            <div class="counts-grid">
+                <div class="count-item">
+                    <span id="wordCount" class="count-value">0</span>
+                    <span class="count-label">Words</span>
+                </div>
+                <div class="count-item">
+                    <span id="charCount" class="count-value">0</span>
+                    <span class="count-label">Characters</span>
+                </div>
+                <div class="count-item">
+                    <span id="sentenceCount" class="count-value">0</span>
+                    <span class="count-label">Sentences</span>
+                </div>
+                <div class="count-item">
+                    <span id="paragraphCount" class="count-value">0</span>
+                    <span class="count-label">Paragraphs</span>
+                </div>
+            </div>
+
+            <div class="additional-metrics">
+                <div class="metric-row">
+                    <span>Characters without spaces</span>
+                    <span id="charNoSpaceCount" class="metric-value">0</span>
+                </div>
+                <!-- <div class="metric-row">
+                    <span>Reading time</span>
+                    <span id="readingTime" class="metric-value">0 m 0 s</span>
+                </div> -->
+                <!-- <div class="metric-row">
+                    <span>Grade level <i class="fas fa-info-circle info-icon"></i></span>
+                    <span id="gradeLevel" class="metric-value">-</span>
+                </div> -->
+            </div>
+
+            <!-- <div class="social-share">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div> -->
+
+            <!-- <div class="target-counts">
+                <span>150</span>
+                <span>250</span>
+                <span>300</span>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- <footer class="footer-text">
+        Free Online Word Counter Tool
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
