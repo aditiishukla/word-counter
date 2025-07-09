@@ -1,1 +1,1 @@
-The Word Counter is a simple and basic application developed in Java using the Swing and AWT framework for its GUI. It enables users to perform real-time textual analysis by calculating the total number of words, characters, and paragraphs entered into a text area.
+The Word Counter is a simple and basic application developed in Java using the Swing and AWT framework for its GUI. It enables users to perform real-time textual analysis by calculating the total number of words, characters, sentences and paragraphs entered into the text area.
